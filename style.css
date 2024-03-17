@@ -1,13 +1,17 @@
 body {
     height: 100vh;
     margin: 0;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
     flex-direction: column;
+    justify-content: space-between; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header, #hero, #cards, #qutoe, footer {
+p {
+    margin: 0;
+}
+
+header, #hero, #cards, #quote, #call, footer {
     padding: 0 200px
 }
 
@@ -50,7 +54,6 @@ h1 {
     color: #E5E7EB;
     font-size: 18px;
     margin: 8px 0;
-    margin-bottom: 8px;
 }
 
 .image {
@@ -68,9 +71,44 @@ h1 {
 button {
     background-color: #3882F6;
     padding: 8px 24px;
-    color: #FFFFFF;
+    color: #F9FAF8;
     font-weight: bolder;
     border-radius: 6px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+}
+
+#call {
+    padding: 100px 200px;
+}
+
+#call > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 50px 100px
+}
+
+.button > button {
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0;
+}
+
+.action {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 footer {
@@ -80,11 +118,13 @@ footer {
     height: 60px;
     background-color: #1F2937;
     color: #E5E7EB;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
