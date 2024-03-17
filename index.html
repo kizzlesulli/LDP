@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -14,19 +15,21 @@
         </ul>
     </header>
     
-    <div class="top">
+    <div id="hero">
         <div class="info">
             <h1>This website has content</h1>
             <p class="hero">Here is some info about stuff that will interest, or be useful to, a visitor or two. Enjoy this basic info.</p>
             <button class="hero sign-up">Sign up</button>
         </div>
-        <div class="image">This is a placeholder for an image</div>
+        <div class="image">
+            <p>This is a placeholder for an image</p>
+        </div>
     </div>
     
-    <div class="middle">
+    <div id="cards">
         <h2>Some random information</h2>
         <div class="cards">
-            <div class="card-co">
+            <div class="card">
                 <div class="box"></div>
                 <p class="subtext">this is something below about something above</p>
             </div>
@@ -46,17 +49,20 @@
         </div>
     </div>
     
-    <div class="bottom">
+    <div id="quote">
         <p class="quote">This customer bought stuff and was hassled to leave a review, so we published their review to honor their efforts. If it existed it would go here and you would be reading it instead of this.</p>
         <div class="author">-Thor, Loyal Customer</div>
     </div>
-    
-    <footer>
+    <div id="call">
         <div class="call">
             <h3>You are now inspired! It's time!</h3>
             <p class="action">Sign up before you realize you don't want to by click the right button.</p>
         </div>
         <button class="footer sign-up">Sign up</button>
+    </div>
+
+    <footer>
+        Copyright (r) KizzleSully LDP project 2024
     </footer>
 </body>
 </html>
