@@ -76,6 +76,25 @@ button {
     border-radius: 6px;
 }
 
+.cards {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    width: 150px;
+    height: auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 4px;
+    border-radius: 10px;
+}
+
 #quote {
     background-color: #E5E7EB;
 }
@@ -91,7 +110,8 @@ button {
     gap: 150px;
     background-color: #3882F6;
     border-radius: 6px;
-    padding: 50px 100px
+    padding: 50px 100px;
+    min-width: 350px;
 }
 
 .button > button {
